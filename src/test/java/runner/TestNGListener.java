@@ -53,7 +53,8 @@ public class TestNGListener implements ITestListener {
 
         extentReportUtil.ExtentReport();
 
-        features = extentReportUtil.extent.createTest(Feature.class, "Login Feature");
+        features = extentReportUtil.extent.createTest(Feature.class, "Shopping Feature");
+        features = extentReportUtil.extent.createTest(Feature.class, "Update Info Feature");
 
     }
 
