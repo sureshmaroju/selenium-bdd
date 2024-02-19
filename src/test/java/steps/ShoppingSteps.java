@@ -79,7 +79,7 @@ public class ShoppingSteps extends Base {
     	scenarioDef.createNode(new GherkinKeyword("Then"), "I should navigate to "+page+" page");
     	switch (page) {
 		case "T-SHIRTS":
-			assertEquals(Driver.getTitle(), "T-shirts - My Store");
+			assertEquals(Driver.getTitle(), "T-shirts - My Shop");
 			break;
 		case "SHOPPING-CART SUMMARY":
 			assertEquals(Driver.getTitle(), "Order - My Store");

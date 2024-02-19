@@ -16,7 +16,7 @@ public class TShirtsPage {
     @FindBy(className = "quick-view")
     public WebElement quickViewCTA;
     
-    @FindBy(xpath = "//a[contains(@class,'add_to_cart_button')]")
+    @FindBy(xpath = "//[contains(@class,'add_to_cart_button')]")
     public WebElement addToCartCTA;
     
     @FindBy(xpath = "//a[contains(@class,'lnk_view btn')]")

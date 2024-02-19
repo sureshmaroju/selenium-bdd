@@ -1,5 +1,6 @@
 package pages;
 
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
@@ -18,7 +19,10 @@ public class LoginPage {
     
     @FindBy(id = "SubmitLogin")
     public WebElement signInBtn;
-    
+
+    public LoginPage(WebDriver driver) {
+    }
+
     public void Login(String userName, String password)
     {
     	emailAddressTextField.sendKeys(userName);
@@ -26,5 +30,7 @@ public class LoginPage {
     	signInBtn.click();
     }
 
-    
+
+    public void ClickLogin() {
+    }
 }
