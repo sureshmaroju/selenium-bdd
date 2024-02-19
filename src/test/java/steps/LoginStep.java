@@ -19,8 +19,9 @@ import utils.Base;
  * @author Suresh
  * 
  */
-public class LoginStep extends Base{
+public class LoginStep  extends Base {
 
+    private  Base base;
     public LoginStep(Base base) {
     }
 
